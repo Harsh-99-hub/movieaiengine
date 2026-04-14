@@ -2,7 +2,7 @@ import httpx
 import os
 
 # ✅ Put your TMDB API key here
-TMDB_API_KEY = os.getenv("TMDB_API_KEY", "YOUR_TMDB_API_KEY_HERE")
+TMDB_API_KEY = os.getenv("TMDB_API_KEY", "234bbd37cf600193b753ba996311fd7c")
 BASE_URL = "https://api.themoviedb.org/3"
 IMAGE_BASE = "https://image.tmdb.org/t/p/w500"
 
