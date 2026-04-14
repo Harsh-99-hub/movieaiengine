@@ -3,7 +3,7 @@ import axios from "axios";
 import "./App.css";
 import StatsTab from "./StatsTab";
 
-const API_BASE = "movieaiengine-production.up.railway.app";
+const API_BASE = "https://movieaiengine-production.up.railway.app/api";
 const VIBE_EXAMPLES = [
   "less complicated than Interstellar","darker than John Wick",
   "like Inception but funnier","simpler than Tenet",
